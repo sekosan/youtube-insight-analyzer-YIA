@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@yia/shared": ["packages/shared/src/index.ts"],
+      "@yia/ai-core": ["packages/ai-core/src/index.ts"],
+      "@yia/ui": ["packages/ui/src/index.ts"]
+    }
+  }
+}
